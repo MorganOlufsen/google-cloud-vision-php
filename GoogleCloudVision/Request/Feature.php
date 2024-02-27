@@ -65,6 +65,7 @@ class Feature implements JsonSerializable
     return $this->model;
   }
 
+  #[\ReturnTypeWillChange]
   public function jsonSerialize(){
     return [
       'type' => $this->type,

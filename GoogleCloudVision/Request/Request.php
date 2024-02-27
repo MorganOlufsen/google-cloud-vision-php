@@ -24,6 +24,7 @@ class Request implements JsonSerializable
     return $this->requests;
   }
 
+  #[\ReturnTypeWillChange]
   public function jsonSerialize(){
     return [
       'requests' => $this->getRequests()

@@ -65,6 +65,7 @@ class AnnotateImageRequest implements JsonSerializable
     return $this->imageContext;
   }
 
+  #[\ReturnTypeWillChange]
   public function jsonSerialize(){
     return [
       'image' => $this->getImage(),

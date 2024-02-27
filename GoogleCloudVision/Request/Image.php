@@ -43,6 +43,7 @@ class Image implements JsonSerializable
     return $this->content;
   }
 
+  #[\ReturnTypeWillChange]
   public function jsonSerialize(){
     return [
         'content' => $this->getContent(),
