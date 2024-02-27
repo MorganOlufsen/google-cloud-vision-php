@@ -1,5 +1,5 @@
 {
-  "name": "MorganOlufsen/google-cloud-vision-php",
+  "name": "morganolufsen/google-cloud-vision-php",
   "description": "A simple php library for the google cloud vision API ",
   "keywords": ["google cloud vision api", "computer vision", "machine learning", "php"],
   "type": "package",
